@@ -1,0 +1,39 @@
+
+header{
+    width: 100%;
+    box-shadow: 0 0 10px 0 var(--color-primary-variant);
+    z-index: 2;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 2rem;
+}
+nav ul{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+nav ul li{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+nav h2 span{
+    font-weight: 300;
+}
+
+/* ==================MEDIA QURIES (MEDIUM DEVICES)=============== */
+
+@media screen and (max-width:1024px) {
+    
+}
+
+/* ==================MEDIA QURIES (SMALL DEVICES)=============== */
+
+@media screen and (max-width:600px) {
+    nav ul{
+        display: none;
+    }
+}
