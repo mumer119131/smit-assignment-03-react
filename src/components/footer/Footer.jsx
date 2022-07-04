@@ -3,7 +3,9 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <h5 className='footer__container'>&copy;All Copyright Reserved By : Muhammad Umer 62858</h5>
+    </div>
   )
 }
 

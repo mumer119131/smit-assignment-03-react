@@ -13,10 +13,14 @@
 :root {
     --color-primary : rgb(51, 51, 51);
     --color-primary-variant : rgb(70, 70, 70);
+    --color-white : white;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+
+    --transition : 450ms ease;
+
 
 }
 
@@ -26,6 +30,7 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
+    color: var(--color-primary);
 }
 
 .container {
@@ -46,10 +51,6 @@ img {
 @media screen and (max-width:1024px) {
     .container {
         width: var(--container-width-md);
-    }
-
-    section {
-        margin-top: 6rem;
     }
 }
 

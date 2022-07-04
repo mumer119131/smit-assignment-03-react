@@ -1,0 +1,39 @@
+
+.projects__container h2{
+    margin: 1rem 0 3rem 0;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:space-evenly;
+}
+
+.project {
+    display: flex;
+}
+
+.project img{
+    width: 17rem;
+    border-radius: 1rem;
+
+}
+
+.project img:hover{
+    filter: brightness(150%);
+}
+
+.project h5{
+    color: white;
+    background: var(--color-primary);
+    padding: 0.4rem 1rem;
+    position:absolute;
+    align-self: flex-start;
+    border-bottom-right-radius: 0.5rem;
+    transition: var(--transition);
+}
+
+.project h5:hover{
+    padding: 0.4rem 1.5rem;
+}
+

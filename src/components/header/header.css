@@ -8,8 +8,42 @@
 section{
     margin-top: 0;
 }
-
+.header__container img{
+    filter: brightness(80%);
+}
 .header__container h2{
     position: absolute;
-    
+    color: var(--color-white);
+    font-size: 3rem;   
+}
+
+.header__container h2 span{
+    background: var(--color-primary);
+    padding: 0.3rem 1rem;
+}
+
+
+/* ==================MEDIA QURIES (MEDIUM DEVICES)=============== */
+
+@media screen and (max-width:1024px) {
+    .container{
+        margin-top: 0;
+    }
+
+}
+
+/* ==================MEDIA QURIES (SMALL DEVICES)=============== */
+
+@media screen and (max-width:600px) {
+    .container {
+            margin-top: 0;
+        }
+    .header__container h2{
+        font-size: 1rem;
+        
+    }
+    .header__container span{
+        padding: 0.2rem 0.4rem;
+    }
+
 }
